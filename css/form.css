@@ -1,0 +1,70 @@
+.form {
+    padding: 20px;
+}
+
+.form__fieldset {
+    border-radius: 15px;
+    border: 2px solid grey;
+}
+
+.form__fieldsetBmi {
+    max-width: 300px;
+}
+
+.form__labelText {
+    width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.form__field {
+    border: 1px solid grey;
+    padding: 7px;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form__field--number {
+    max-width: 50px;
+}
+
+.form__field:required {
+    border-color: rgb(209, 98, 0);
+}
+
+.form__field:invalid {
+    background-color: rgb(255, 234, 234);
+    border: 1px solid red;
+}
+
+.form__legend {
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 10px;
+    color: white;
+}
+
+.form__button {
+    width: 100%;
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.form__button:hover {
+    background-color: rgb(130, 9, 33);
+}
+
+.form__button:active {
+    background-color: hsl(348, 87%, 20%);
+}
+
+.form__buttonBmi {
+    max-width: 300px;
+}

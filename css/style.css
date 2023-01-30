@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*/,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.textBmi {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(150, 0, 30);
+}
