@@ -7,3 +7,37 @@ html {
 ::before {
     box-sizing: inherit;
 }
+
+.header {
+    text-align: center;
+    text-decoration: dotted #0000ff;
+    text-decoration-line: underline;
+}
+
+.header__text {
+    color: #ff0000
+}
+
+.nav {
+    text-transform: capitalize;
+    background-color: azure;
+    max-width: 500px;
+    width:100%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.nav__list{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav__ul {
+    width: 100%;
+    padding-right: 40px;
+}
