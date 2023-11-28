@@ -10,31 +10,30 @@ html {
 
 .header {
     text-align: center;
-    text-decoration: dotted #0000ff;
-    text-decoration-line: underline;
 }
 
 .header__text {
-    color: #ff0000
+    color: #000000
 }
 
 .nav {
     text-transform: capitalize;
-    background-color: azure;
+    background-color: teal;
     max-width: 500px;
-    width:100%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding: 20px;
     border-radius: 15px;
-    border: 3px solid red;
+    border: 3px solid rgb(0, 0, 0);
 }
 
-.nav__list{
+.nav__list {
     border: 2px solid black;
     border-radius: 5px;
-    display: inline-block;
     padding: 15px;
+    background-color: white;
+    display: inline-block;
 }
 
 .nav__ul {
@@ -42,9 +41,9 @@ html {
     padding-right: 40px;
 }
 
-.flex{
+.flex {
     margin: auto;
-    margin-top:30px;
+    margin-top: 30px;
     padding: 10px;
     border: 5px solid black;
     display: flex;
@@ -53,7 +52,7 @@ html {
     justify-content: center;
 }
 
-.flex__item{
+.flex__item {
     background-color: teal;
     color: white;
     padding: 20px;
