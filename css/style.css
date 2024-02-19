@@ -42,14 +42,16 @@ html {
     margin: 0;
     padding: 0;
     list-style-type: none;
-
 }
 
 .list__field {
-    padding: 14px 16px;
-    margin-right: 40px;
+    padding: 14px 60px;
     text-align: center;
     font-size: 22px;
+    border-right: 3px solid #17252A;
+}
+.list__field:last-child{
+    border-right: none;
 }
 
 .list__field--a {
