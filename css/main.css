@@ -1,0 +1,24 @@
+.main {
+    background-color: #2b7A78;
+    padding: 50px;
+    color: #FEFFFF;
+}
+
+.main__h {
+    font-weight: 1000;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.main__text {
+    padding-left: 50px;
+    font-size: 28px;
+    text-indent: 30px;
+    line-height: 1.5;
+}
+
+.main__middle {
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

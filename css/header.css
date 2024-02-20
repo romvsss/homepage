@@ -1,0 +1,18 @@
+.header {
+    background-color: #17252A;
+    margin: auto;
+    color: #FEFFFF;
+    padding: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.header__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 80px;
+    border: 5px solid black;
+    margin-bottom: 40px;
+}
