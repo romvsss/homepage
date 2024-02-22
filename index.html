@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="icon" href="https://github.com/romvsss/homepage/blob/master/img/icon.png?raw=true">
-    <meta property="og:image" content="https://github.com/romvsss/homepage/blob/master/img/Painter%20Business%20Card%20in%20Colorful%20Abstract%20Style.png?raw=true">
+    <meta property="og:image"
+        content="https://github.com/romvsss/homepage/blob/master/img/Painter%20Business%20Card%20in%20Colorful%20Abstract%20Style.png?raw=true">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -22,67 +25,125 @@
 </head>
 
 <body class="body">
+    <div class="button">
+        <button class="button__button js-button">Usuń fote!</button>
+    </div>
     <header class="header">
-        <img src="https://github.com/romvsss/homepage/blob/master/img/wizytowka%20img.jpg?raw=true" alt="Oskar Romanowicz" class="header__img">
+        <img src="https://github.com/romvsss/homepage/blob/master/img/wizytowka%20img.jpg?raw=true"
+            alt="Oskar Romanowicz" class="header__img js-picture">
         <h1>
             WITAJ W MOJEJ WIZYTOWCE!
         </h1>
-        <h2>
+        <!--       <h2>
             Kilka słów o mnie
         </h2>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui cum voluptates impedit veniam minus debitis
-            non nemo modi error, enim minima delectus eius dignissimos nulla deleniti quaerat. Odit, blanditiis esse.
+        -->
+        <p class="header__text">
+            Nazywam się Oskar Romanowicz. Pochodzę z Tomaszowa Lubelskiego. Jestem studentem informatyki i jednocześnie
+            realizuje kurs Fronend Developer od Podstaw.
         </p>
     </header>
     <nav class="nav">
         <ul class="list">
-            <li class="list__field"><a href="#" class="list__field--a">ZAINTERESOWANIA</a></li>
-            <li class="list__field"><a href="#" class="list__field--a">DOŚWIADCZENIE</a></li>
-            <li class="list__field"><a href="#" class="list__field--a">PRYWATNOŚĆ</a></li>
+            <li class="list__field"><a href="#" class="list__field--a">O MNIE</a></li>
+            <li class="list__field"><a href="#" class="list__field--a">DOŚWIADCZENIE ZAWODOWE</a></li>
+            <li class="list__field"><a href="#" class="list__field--a">TOP 3 ĆWICZENIA NA DANĄ PARTIĘ MIĘŚNI</a></li>
             <li class="list__field"><a href="#" class="list__field--a">KONTAKT</a></li>
         </ul>
     </nav>
     <main class="main">
-        <h2 class="main__h">ZAINTERESOWANIA</h2>
+        <h2 class="main__h">KILKA SŁÓW O MNIE</h2>
         <p class="main__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vero totam ratione quae neque necessitatibus!
-            Dolore distinctio molestias ipsam doloremque vero quae accusamus iste voluptatibus, voluptas id cumque dolor
-            voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum sunt expedita, numquam
-            beatae debitis maxime sequi unde perspiciatis quibusdam ut vero? Quae culpa eaque quibusdam mollitia illum
-            voluptas porro!
+            Jak już wiesz mam na imie Oskar, mówią na mnie Romek. Mieszkam w Warszawie i studiuję na Akademii
+            Ekonomiczno-Humanistycznej również w Warszawie. Interesują mnie podróże, motorsport i wszelkie dyscypliny
+            sportowe, i oczywiście informatyka. Moją najwiekszą pasją była siłownia, ale niestety od roku próbuje wrócić
+            ale choroby i dalej brak zaparcia i czasu uniemożliwiły mi sprawny powrót.
         </p>
+        <hr>
         <div class="main__middle">
-            <h2 class="main__h">DOŚWIADCZENIE</h2>
+            <h2 class="main__h">DOŚWIADCZENIE ZAWODOWE</h2>
             <p class="main__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vero totam ratione quae neque
-                necessitatibus!
-                Dolore distinctio molestias ipsam doloremque vero quae accusamus iste voluptatibus, voluptas id cumque
-                dolor
-                voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum sunt expedita, numquam
-                beatae debitis maxime sequi unde perspiciatis quibusdam ut vero? Quae culpa eaque quibusdam mollitia
-                illum
-                voluptas porro!
+                Moją pierwszą pracą był magazyn z kwiatkami w Niemczech w Bensheim. Nauczyłem sie tam być konsekwentny,
+                zmorą dla mnie było wstawanie rano, a tam dzień w dzień pobudka o 4 z rana. Druga pracą rok później były
+                kajaki na okres czerwiec-sierpień. Ciężka, ale ciekawa praca. Następną pracą była praca w sklepie
+                alkoholowym ze względu na nieciekawą sytuację finansową, wtedy właśnie dołączyłem do kursu i od tamtej
+                pory nic nie wysłałem, było to rok temu. Dopiero teraz się zawziąłem na dokończenie kursu na dobre.
+                Obecnie pracuje jako kierowca w wypożyczalni samochodów. W końcu jestem zmotywowany żeby połączyć
+                studia, kurs i pracę.
             </p>
         </div>
-            <h2 class="main__h">PRYWATNOŚĆ</h2>
+        <hr>
+        <section>
+            <h2 class="main__h">TOP 3 ĆWICZENIA NA DANĄ PARTIĘ MIĘŚNI</h2>
             <p class="main__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vero totam ratione quae neque
-                necessitatibus!
-                Dolore distinctio molestias ipsam doloremque vero quae accusamus iste voluptatibus, voluptas id cumque
-                dolor
-                voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum sunt expedita, numquam
-                beatae debitis maxime sequi unde perspiciatis quibusdam ut vero? Quae culpa eaque quibusdam mollitia
-                illum
-                voluptas porro!
+                Jako iż mam spory staż w treningu siłowym, chciałbym sie podzielić moimi top 3 ćwiczeniami po których jest największa pompka.
             </p>
-        
+            <table class="table">
+                <caption class="table__caption">TOP 3 ĆWICZENIA NA DANĄ PARTIĘ MIĘŚNI</caption>
+                <tr class="table__row">
+                    <th class="table__cell--header table__cell" scope="row">
+                        KLATKA PIERSIOWA
+                    </th>
+                    <td class="table__cell">
+                        Wyciskanie hantli na ławce dodatniej
+                    </td>
+                    <td class="table__cell">
+                        Rozpiętki na bramie na wyciagu górnym
+                    </td>
+                    <td class="table__cell">
+                        Rozpiętka na jedną rękę na bramie na wyciągu dolnym
+                    </td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell--header table__cell" scope="row">
+                        PLECY
+                    </th>
+                    <td class="table__cell">
+                        Wiosłowanie na maszynie Smitha
+                    </td>
+                    <td class="table__cell">
+                        Przyciąganie drążka siedząc z wyciągu górnego nachwytem do klatki piersiowej
+                    </td>
+                    <td class="table__cell">
+                        Zwykłe wiosło hantlem jednorącz poziomo w podporze
+                    </td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell--header table__cell" scope="row">
+                        ŁAPY
+                    </th>
+                    <td class="table__cell">
+                        Wyprosty ramion na batonie z wyciągu górnego (Triceps)
+                    </td>
+                    <td class="table__cell">
+                        Bicepsy ze sztangą
+                    </td>
+                    <td class="table__cell">
+                        Wznosy bokiem (Barki)
+                    </td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell--header table__cell" scope="row">
+                        NOGI
+                    </th>
+                    <td class="table__cell">
+                        Suwnica leżąc
+                    </td>
+                    <td class="table__cell">
+                        Przysiady ze sztangą
+                    </td>
+                    <td class="table__cell">
+                        Wyprosty nóg w siadzie na maszynie
+                    </td>
+                </tr>
+            </table>
+        </section>
+
     </main>
     <footer class="footer">
         <h2 class="main__h">KONTAKT</h2>
         <p>+48 123456789</p>
         <p>abc@gmail.com</p>
-        <p>Instagram</p>
     </footer>
 </body>
 

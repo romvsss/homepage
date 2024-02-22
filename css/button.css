@@ -1,0 +1,12 @@
+.button{
+    margin-right: 130px;
+    margin-top: 35px;
+    float:right;
+}
+
+.button__button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #20333a;
+    color: #FAFFFF;
+}
