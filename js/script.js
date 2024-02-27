@@ -9,9 +9,9 @@
     }
     const init = () => {
         welcome();
-        const button__remove = document.querySelector(".js-button");
+        const removeButtonElement = document.querySelector(".js-button");
 
-        button__remove.addEventListener("click", () => {
+        removeButtonElement.addEventListener("click", () => {
             removePicture(button__remove);
         }
         );
